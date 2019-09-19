@@ -39,5 +39,15 @@ class LocationList extends StatelessWidget {
 
   Widget _itemTitle(Location location) {
     return Text(location.name, style: Styles.textDefault);
+//    return RichText(
+//      text: TextSpan(
+//        text: location.name,
+//        style: Styles.textDefault,
+//        children: <TextSpan>[
+//          TextSpan(text: 'bold', style: TextStyle(fontWeight: FontWeight.bold)),
+//          TextSpan(text: ' world!'),
+//        ],
+//      ),
+//    );
   }
 }

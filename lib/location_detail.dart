@@ -39,13 +39,12 @@ class LocationDetail extends StatelessWidget {
 
   Widget _sectionText(String text) {
     return Container(
-        padding: EdgeInsets.fromLTRB(25.0, 15.0, 25.0, 15.0),
-        child: Text(text));
+        padding: EdgeInsets.fromLTRB(25.0, 5.0, 25.0, 0.0), child: Text(text));
   }
 
   Widget _sectionTitle(String text) {
     return Container(
-        padding: EdgeInsets.fromLTRB(25.0, 25.0, 25.0, 10.0),
+        padding: EdgeInsets.fromLTRB(25.0, 5.0, 25.0, 0.0),
         child:
             Text(text, textAlign: TextAlign.left, style: Styles.headerLarge));
   }
