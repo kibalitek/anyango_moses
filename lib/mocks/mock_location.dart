@@ -7,7 +7,7 @@ class MockLocation extends Location {
     Location(
         name: 'Luma Eastern College',
         url:
-            'https://firebasestorage.googleapis.com/v0/b/flutter-joe-sample.appspot.com/o/forward.jpg?alt=media&token=be0d2678-0bcc-436d-9bc9-447299aad855',
+            'https://firebasestorage.googleapis.com/v0/b/flutter-joe-sample.appspot.com/o/luma_college.jpg?alt=media&token=52a1b566-3a9b-46df-ae7e-9aa1557deb45',
         facts: <LocationFact>[
           LocationFact(title: 'Summary', text: 'The Eastern Giants'),
           LocationFact(
@@ -76,13 +76,13 @@ class MockLocation extends Location {
                   'Light blue_Gray for O_level and Zebra stripped_Gray for A_level  ')
         ]),
     Location(
-        name: 'Bilal High School',
+        name: 'Shine Outreach School',
         url:
-            'https://firebasestorage.googleapis.com/v0/b/flutter-joe-sample.appspot.com/o/shineoutreach.jpg?alt=media&token=f45241bd-3d5d-4549-8144-25225935f7e5',
+            'https://firebasestorage.googleapis.com/v0/b/flutter-joe-sample.appspot.com/o/shineoutreach.jpg?alt=media&token=e980c292-e155-4336-80bc-2fa23e2dc4f2',
         facts: <LocationFact>[
-          LocationFact(title: 'Summary', text: 'Allah with us'),
+          LocationFact(title: 'Summary', text: 'God with us'),
           LocationFact(
-              title: 'How to get there', text: 'Along Jinja road_kisenyi'),
+              title: 'How to get there', text: 'Along Sofia road'),
           LocationFact(
               title: 'Sports Teams',
               text: 'Has great volley ball and hockey teams'),
