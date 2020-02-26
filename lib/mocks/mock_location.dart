@@ -133,7 +133,4 @@ class MockLocation extends Location {
     return MockLocation.items[0];
   }
 
-  static List<Location> fetchAll() {
-    return MockLocation.items;
-  }
-}
+  static List<Location> fetchAl
